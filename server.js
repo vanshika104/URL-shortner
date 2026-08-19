@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.urlencoded({extended:true}))
 
-mongoose.connect("mongodb+srv://vanshikasinghh104_db_user:m3kZkjx0nKWetIKU@cluster0.bjebxrk.mongodb.net/", {
+mongoose.connect("mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.bjebxrk.mongodb.net/", {
     dbName: "Node-js",
 }
 )
